@@ -1,0 +1,29 @@
+Command line:
+   randomgenerator_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50260
+
+Thu Jan 29 18:51:49 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 367.788 Meg
+
+ Total Signals          : 15
+ Total Nets             : 25
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 115
+Total Line Count : 22
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 367.788 Meg
+
+Thu Jan 29 18:52:03 2015
+

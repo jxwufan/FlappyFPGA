@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj VGAtest -o E:/code/hardware/VGAtest/vga_stripes.tfi -lib work E:/code/hardware/VGAtest//vga_stripes.v -module vga_stripes -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

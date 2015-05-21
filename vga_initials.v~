@@ -1,0 +1,128 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    17:50:32 12/10/2014 
+// Design Name: 
+// Module Name:    vga_initials 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module vga_initials(
+	input wire vidon,
+	input wire [9:0] hc,
+	input wire [9:0] vc,
+	input wire [12:0] ax, bx, cx,
+	input wire [9:0] at, bt, ct,
+	output reg[2:0] red,
+	output reg[2:0] green,
+	output reg[1:0] blue
+);
+
+parameter hbp = 10'b0010010000;
+parameter vbp = 10'b0000011111;
+parameter gap = 100;
+
+wire [9:0] x, y;
+
+assign x = hc - hbp - 1;
+assign y = vc - vbp - 1;
+wire signed [10:0] ax1, bx1, cx1;
+
+assign ax1 = ax - 100;
+assign bx1 = bx - 100;
+assign cx1 = cx - 100;
+
+wire a = (y < at) || (y > at + 50);
+wire b = (ax > 100) && (x > ax1) && (x < ax);
+
+
+always @ (*)
+begin
+	if ((vidon == 1))
+	begin
+		if (y > 450)
+		begin
+			if (y > 460)
+			begin
+				red <= 3'b110;
+				green <= 3'b110;
+				blue <= 2'b10;
+			end
+			else
+			begin
+				red <= 3'b011;
+				green <= 3'b110;
+				blue <= 2'b00;				
+			end
+		end
+		else
+		begin
+			if ((ax > 100) && (x >= ax1) && (x <= ax) && ( (y <= at) || (y >= at + gap)) )
+			begin
+				red <= 3'b011;
+				green <= 3'b101;
+				blue <= 2'b00;
+			end
+			else
+				if ( (ax <= 100) && (x <= ax) && ( (y <= at) || (y >= at + gap) ) )
+				begin
+					red <= 3'b011;
+					green <= 3'b101;
+					blue <= 2'b00;
+				end	
+				else
+					if ( (bx > 100) && (x >= bx1) && (x <= bx) && ( (y <= bt) || (y >= bt + gap) ) )
+					begin
+						red <= 3'b011;
+						green <= 3'b101;
+						blue <= 2'b00;
+					end
+					else
+						if ( (bx <= 100) && (x <= bx) && ( (y <= bt) || (y >= bt + gap) ) )
+						begin
+							red <= 3'b011;
+							green <= 3'b101;
+							blue <= 2'b00;
+						end	
+						else
+							if ( (cx > 100) && (x >= cx1) && (x <= cx) && ( (y <= ct) || (y >= ct + gap) ) )
+							begin
+								red <= 3'b011;
+								green <= 3'b101;
+								blue <= 2'b00;
+							end
+							else
+								if ( (cx <= 100) && (x <= cx) && ( (y <= ct) || (y >= ct + gap) ) )
+								begin
+									red <= 3'b011;
+									green <= 3'b101;
+									blue <= 2'b00;
+								end	
+								else
+								begin
+									red <= 3'b011;
+									green <= 3'b110;
+									blue <= 2'b11;
+								end
+		end
+	end
+						else
+						begin
+							red <= 'b000;
+							green <= 'b000;
+							blue <= 'b00;
+						end
+end
+
+endmodule

@@ -1,0 +1,1294 @@
+xst -intstyle ise -ifn "E:/code/hardware/VGAtest/vga_initials_top.xst" -ofn "E:/code/hardware/VGAtest/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/VGAtest/vga_initials_top.xst" -ofn "E:/code/hardware/VGAtest/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/VGAtest/vga_initials_top.xst" -ofn "E:/code/hardware/VGAtest/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/VGAtest/vga_initials_top.xst" -ofn "E:/code/hardware/VGAtest/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flyppybird/vga_initials_top.xst" -ofn "E:/code/hardware/flyppybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+xst -intstyle ise -ifn "E:/code/hardware/flappybird/vga_initials_top.xst" -ofn "E:/code/hardware/flappybird/vga_initials_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/code/hardware/Mod10Counter/ucf.ucf -p xc6slx16-csg324-3 vga_initials_top.ngc vga_initials_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_initials_top_map.ncd vga_initials_top.ngd vga_initials_top.pcf 
+par -w -intstyle ise -ol high -mt off vga_initials_top_map.ncd vga_initials_top.ncd vga_initials_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_initials_top.twx vga_initials_top.ncd -o vga_initials_top.twr vga_initials_top.pcf 
+bitgen -intstyle ise -f vga_initials_top.ut vga_initials_top.ncd 

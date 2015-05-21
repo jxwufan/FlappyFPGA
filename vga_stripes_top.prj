@@ -1,0 +1,4 @@
+verilog work "vga_stripes.v"
+verilog work "vga_640x480.v"
+verilog work "../Mod10Counter/clkdiv.v"
+verilog work "vga_stripes_top.v"

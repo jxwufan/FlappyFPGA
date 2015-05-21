@@ -1,0 +1,72 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    13:10:05 12/22/2014 
+// Design Name: 
+// Module Name:    tubes 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module tubes(
+	 input wire clk10ms,
+	 input wire [9:0] num,
+	 output reg [12:0] ax, bx, cx, 
+	 output reg [9:0] at, bt, ct
+    );
+	 
+	 initial 
+	 begin
+		ax <= 740;
+		bx <= 740 + 270;
+		cx <= 740 + 270 + 270;
+		at <= 220;
+		bt <= 330;
+		ct <= 210;
+	 end
+	 
+	 always @(posedge clk10ms)
+	 begin
+		if (ax == 0)
+			begin
+				ax <= cx + 270;
+				at <= num;
+			end
+			else
+			begin
+				ax <= ax - 1;
+				at <= at;
+				if (bx == 0)
+				begin
+					bx <= ax + 270;
+					bt <= num;
+				end
+				else
+				begin
+					bx <= bx - 1;
+					bt <= bt;
+					if (cx == 0)
+					begin
+						cx <= bx + 270;
+						ct <= num;
+					end
+					else
+					begin
+						cx <= cx - 1;
+						ct <= ct;
+					end
+				end
+			end
+	 end
+
+endmodule

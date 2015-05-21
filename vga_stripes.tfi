@@ -1,0 +1,9 @@
+
+
+
+// Instantiate the module
+vga_stripes instance_name (
+    .vidon(vidon)
+    );
+
+
